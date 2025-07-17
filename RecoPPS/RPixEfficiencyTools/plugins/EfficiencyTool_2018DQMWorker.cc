@@ -138,10 +138,11 @@ private:
   int minTracksPerEvent_;
   int maxTracksPerEvent;
 
-  static const unsigned int totalNumberOfBunches_ = 3564;
-  std::string bunchSelection_;
-  std::string bunchListFileName_;
-  bool validBunchArray_[totalNumberOfBunches_];
+#righe da rimuovere
+  #static const unsigned int totalNumberOfBunches_ = 3564;
+  #std::string bunchSelection_;
+  #std::string bunchListFileName_;
+  #bool validBunchArray_[totalNumberOfBunches_];
 
   MonitorElement *h1BunchCrossing_;
   MonitorElement *h1CrossingAngle_;
